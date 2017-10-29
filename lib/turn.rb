@@ -40,7 +40,7 @@ def turn(board)
   num = input_to_index(input)
   if valid_move?(board, num) == true
     move(board, num)
-    display_board(board)
+    return display_board(board)
   end
 
 return turn(board)
