@@ -1,3 +1,3 @@
 def display_board(board)
-  input board
+  puts board
 end
