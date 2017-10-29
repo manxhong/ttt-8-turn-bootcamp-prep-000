@@ -12,6 +12,9 @@ def input_to_index(int)
   num - 1
 end
 
-def valid_move?
+def valid_move?(board, index)
   
+end
+
+def position_taken?(board, index)
 end
