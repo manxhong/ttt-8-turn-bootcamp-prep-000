@@ -1,4 +1,6 @@
 def display_board(board)
-  rows = -----------
+  rows = "-----------"
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts rows
+  
 end
