@@ -42,6 +42,6 @@ def turn(board)
     return move(board, num)
   end
   else
-    turn(board)
+    return turn(board)
   end
 end
