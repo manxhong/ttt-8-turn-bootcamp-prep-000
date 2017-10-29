@@ -8,5 +8,6 @@ def display_board(board)
 end
 
 def input_to_index(int)
-  
+  num = int.to_i
+  num -1
 end
